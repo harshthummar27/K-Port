@@ -29,14 +29,14 @@ export const metadata: Metadata = {
     "Link Building",
     "Google Analytics",
   ],
-  authors: [{ name: "Kunal Chavada" }],
+  authors: [{ name: "Kunalsinh Chavada" }],
   icons: {
     icon: "/images/favi-icon.png",
-    shortcut: "/images/me.jpeg",
-    apple: "/images/me.jpeg",
+    shortcut: "/1737433149000.jpg",
+    apple: "/1737433149000.jpg",
   },
   openGraph: {
-    title: "Kunal Chavada | SEO Engineer",
+    title: "Kunalsinh Chavada | SEO Engineer",
     description:
       "SEO Engineer with 1.5 years of proven experience in driving organic growth and improving search engine rankings",
     type: "website",

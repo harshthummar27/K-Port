@@ -11,18 +11,33 @@ import {
 const experiences = [
   {
     id: 1,
-    company: "Digital Marketing Agency - New York",
-    role: "Senior SEO Engineer",
-    location: "Remote",
-    period: "2025 - Present",
-    website: "https://www.digitalmarketingagency.com/",
+    company: "Metizsoft Solution Pvt Ltd",
+    location: "Ahmedabad, Gujarat",
+    period: "Aug 2024 - Present",
+    website: "https://www.metizsoft.com/",
     description:
-      "Leading SEO strategy and optimization for 20+ high-traffic websites. Driving organic growth through technical SEO, on-page optimization, and content strategy.",
-    achievements: [
-      "Increased organic traffic by 156% for enterprise clients",
-      "Improved search rankings from page 3 to top 5 for 15+ competitive keywords",
-      "Implemented schema markup increasing CTR by 32%",
-      "Mentored 3 junior SEO specialists on best practices",
+      "Started my professional journey as an SEO intern and successfully transitioned to a full-time SEO Engineer role. Leading SEO initiatives, optimizing website performance, and implementing data-driven strategies to improve organic search visibility.",
+    timeline: [
+      {
+        role: "SEO Engineer",
+        period: "Feb 2025 - Present",
+        achievements: [
+          "Successfully transitioned from intern to full-time SEO Engineer",
+          "Optimized multiple client websites for better search rankings",
+          "Implemented technical SEO improvements across various projects",
+          "Conducted comprehensive keyword research and competitor analysis",
+        ],
+      },
+      {
+        role: "SEO Intern",
+        period: "Aug 2024 - Feb 2025",
+        achievements: [
+          "Completed comprehensive 6-month SEO internship program",
+          "Conducted SEO audits and identified optimization opportunities",
+          "Assisted in keyword research and content strategy development",
+          "Learned and applied best practices in on-page and technical SEO",
+        ],
+      },
     ],
     technologies: [
       "Google Search Console",
@@ -32,65 +47,13 @@ const experiences = [
       "Schema Markup",
       "Core Web Vitals",
       "Technical SEO",
-      "Keyword Research",
-    ],
-    image: "/images/digital-agency.jpg",
-    color: "from-purple-500 to-blue-500",
-  },
-  {
-    id: 2,
-    company: "E-commerce Growth Agency - San Francisco",
-    role: "SEO Specialist",
-    location: "San Francisco, CA",
-    period: "June 2023 - Dec 2024",
-    website: "https://www.ecommercegrowth.com/",
-    description:
-      "Optimized e-commerce websites for better search visibility and organic revenue. Focused on technical SEO, product page optimization, and link building strategies.",
-    achievements: [
-      "Increased organic revenue by $2.5M in 12 months",
-      "Improved average page load speed by 45%",
-      "Built high-quality backlink profile gaining 150+ DA+ links",
-      "Optimized 500+ product pages improving avg ranking by 8 positions",
-    ],
-    technologies: [
-      "Yoast SEO",
-      "Screaming Frog",
-      "Rank Tracker",
-      "Google Analytics",
-      "Link Building Tools",
-      "Canonical Tags",
-      "Mobile-First Indexing",
-      "Conversion Optimization",
-    ],
-    image: "/images/ecommerce-agency.jpg",
-    color: "from-blue-500 to-cyan-500",
-  },
-  {
-    id: 3,
-    company: "Tech Startup - Austin",
-    role: "Junior SEO Engineer",
-    location: "Austin, Texas",
-    period: "6 Months",
-    website: "https://www.techstartup.com/",
-    description:
-      "Started SEO journey at a fast-growing SaaS startup. Conducted SEO audits, implemented on-page optimizations, and created content strategy.",
-    achievements: [
-      "Conducted comprehensive SEO audits for 20+ web properties",
-      "Implemented on-page SEO improvements increasing organic visibility",
-      "Created and optimized 40+ content pieces for target keywords",
-      "Established SEO tracking and reporting framework",
-    ],
-    technologies: [
-      "Google Search Console",
-      "Google Analytics",
-      "Moz",
-      "Keyword Research Tools",
       "On-Page Optimization",
-      "HTML/CSS for SEO",
-      "Site Structure",
+      "Keyword Research",
+      "HTML/CSS",
+      "SEO Auditing",
     ],
-    image: "/images/startup.webp",
-    color: "from-cyan-500 to-purple-500",
+    image: "/Metiz-logo-1.svg",
+    color: "from-purple-500 to-blue-500",
   },
 ];
 
@@ -187,7 +150,7 @@ export default function Experience() {
                   <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-purple-500/10 via-cyan-500/10 to-blue-500/10 opacity-50 blur-xl"></div>
 
                   <div className="relative z-10 flex flex-col md:flex-row gap-6">
-                    {/* Left Side - Company Image and Timeline */}
+                    {/* Left Side - Company Image */}
                     <div className="flex items-start gap-4 md:flex-col md:items-center md:w-24">
                       {experience.website ? (
                         <a
@@ -223,7 +186,7 @@ export default function Experience() {
                           {experience.company}
                         </div>
                         <div className="text-white/70 text-sm">
-                          {experience.role}
+                          {experience.location}
                         </div>
                       </div>
                     </div>
@@ -234,10 +197,10 @@ export default function Experience() {
                       <div className="hidden md:flex items-start justify-between mb-4">
                         <div>
                           <h3 className="text-2xl font-bold text-white mb-2">
-                            {experience.role}
-                          </h3>
-                          <div className="text-xl text-white/90 font-semibold mb-2">
                             {experience.company}
+                          </h3>
+                          <div className="text-lg text-white/90 font-medium mb-2">
+                            Career Timeline
                           </div>
                         </div>
                         <div className="text-right">
@@ -271,23 +234,35 @@ export default function Experience() {
                         {experience.description}
                       </p>
 
-                      {/* Achievements */}
-                      <div className="mb-6">
-                        <h4 className="text-white font-semibold mb-3 flex items-center gap-2">
-                          <Briefcase className="w-4 h-4" />
-                          Key Achievements
-                        </h4>
-                        <ul className="space-y-2">
-                          {experience.achievements.map((achievement, idx) => (
-                            <li
-                              key={idx}
-                              className="text-white/70 text-sm md:text-base flex items-start gap-3"
-                            >
-                              <span className="text-purple-400 mt-1.5">▸</span>
-                              <span>{achievement}</span>
-                            </li>
-                          ))}
-                        </ul>
+                      {/* Timeline Roles */}
+                      <div className="mb-6 space-y-6">
+                        {experience.timeline.map((role, roleIndex) => (
+                          <div key={roleIndex} className="relative pl-6 border-l-2 border-purple-500/30">
+                            <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500 border-2 border-black"></div>
+                            
+                            <div className="mb-3">
+                              <h4 className="text-white font-bold text-lg mb-1">
+                                {role.role}
+                              </h4>
+                              <p className="text-white/60 text-sm flex items-center gap-2">
+                                <Calendar className="w-3 h-3" />
+                                {role.period}
+                              </p>
+                            </div>
+
+                            <ul className="space-y-2">
+                              {role.achievements.map((achievement, idx) => (
+                                <li
+                                  key={idx}
+                                  className="text-white/70 text-sm md:text-base flex items-start gap-3"
+                                >
+                                  <span className="text-purple-400 mt-1.5">▸</span>
+                                  <span>{achievement}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        ))}
                       </div>
 
                       {/* Technologies */}

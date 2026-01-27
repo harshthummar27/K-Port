@@ -144,10 +144,10 @@ export default function Hero() {
                 letterSpacing: "-0.03em",
               }}
             >
-              KUNAL
+              KUNALSINH
               <br />
               <span className="relative">
-                CHAVADA
+                CHAVDA
                 {/* Neon gradient glow effect */}
                 <span className="absolute inset-0 bg-gradient-to-r from-purple-400/30 via-cyan-400/30 to-blue-400/30 blur-2xl"></span>
               </span>
@@ -161,7 +161,7 @@ export default function Hero() {
               className="mb-4 sm:mb-6"
             >
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold text-white/90 tracking-tight">
-                SEO Engineer & Digital Marketing Specialist
+                SEO Engineer & Digital Marketing
               </h2>
             </motion.div>
 
@@ -197,10 +197,10 @@ export default function Hero() {
                         "0 0 20px rgba(168,85,247,0.6), 0 0 40px rgba(168,85,247,0.3)",
                     }}
                   >
-                    25+
+                    7+
                   </div>
                   <div className="text-white/70 text-[10px] sm:text-xs md:text-sm uppercase tracking-wider leading-tight">
-                    Projects
+                    Websites Optimized
                   </div>
                 </motion.div>
                 <motion.div
@@ -219,7 +219,7 @@ export default function Hero() {
                     10+
                   </div>
                   <div className="text-white/70 text-[10px] sm:text-xs md:text-sm uppercase tracking-wider leading-tight">
-                    Clients
+                    Happy Clients
                   </div>
                 </motion.div>
                 <motion.div
@@ -235,10 +235,10 @@ export default function Hero() {
                         "0 0 20px rgba(168,85,247,0.6), 0 0 40px rgba(168,85,247,0.3)",
                     }}
                   >
-                    3+
+                    1.5+
                   </div>
                   <div className="text-white/70 text-[10px] sm:text-xs md:text-sm uppercase tracking-wider leading-tight">
-                    Years
+                    Years Experience
                   </div>
                 </motion.div>
               </div>
@@ -265,10 +265,10 @@ export default function Hero() {
                     "0 0 20px rgba(168,85,247,0.6), 0 0 40px rgba(168,85,247,0.3)",
                 }}
               >
-                05+
+                7+
               </div>
               <div className="text-white/70 text-base uppercase tracking-wider">
-                Projects
+                Websites Optimized
               </div>
             </motion.div>
             <motion.div
@@ -284,10 +284,10 @@ export default function Hero() {
                     "0 0 20px rgba(59,130,246,0.6), 0 0 40px rgba(59,130,246,0.3)",
                 }}
               >
-                05+
+                10+
               </div>
               <div className="text-white/70 text-base uppercase tracking-wider">
-                Clients
+                Happy Clients
               </div>
             </motion.div>
             <motion.div
@@ -303,7 +303,7 @@ export default function Hero() {
                     "0 0 20px rgba(168,85,247,0.6), 0 0 40px rgba(168,85,247,0.3)",
                 }}
               >
-                2+
+                1.5+
               </div>
               <div className="text-white/70 text-base uppercase tracking-wider">
                 Years Experience
@@ -331,15 +331,14 @@ export default function Hero() {
               {/* Portfolio Badge */}
               <div className="mb-6">
                 <span className="inline-block px-4 py-2 bg-gradient-to-r from-purple-500/10 to-blue-500/10 backdrop-blur-sm border border-white/10 rounded-full text-white/80 text-sm md:text-base font-medium">
-                  PORTFOLIO 2025
+                  PORTFOLIO 2026
                 </span>
               </div>
 
               {/* Intro Paragraph */}
               <p className="text-white/70 text-base sm:text-lg md:text-xl leading-relaxed mb-6 sm:mb-8 max-w-3xl">
-                I design and build clean, scalable, and high-performance digital
-                products. Explore my work and see how I bring ideas to life with
-                code.
+                Specializing in SEO strategy, technical optimization, and data-driven digital marketing solutions. 
+                Helping businesses achieve higher search rankings and sustainable organic growth through proven methodologies.
               </p>
             </div>
           </div>

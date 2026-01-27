@@ -7,9 +7,7 @@ import {
   Phone,
   MapPin,
   Send,
-  Github,
   Linkedin,
-  Twitter,
   Instagram,
   MessageSquare,
 } from "lucide-react";
@@ -18,15 +16,15 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "kunal.chavada.seo@gmail.com",
-    link: "mailto:kunal.chavada.seo@gmail.com",
+    value: "kunalsinh009@gmail.com",
+    link: "mailto:kunalsinh009@gmail.com",
     color: "from-purple-500 to-blue-500",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 98765 43210",
-    link: "tel:+919876543210",
+    value: "+91 95869 60610",
+    link: "tel:+919586960610",
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -42,25 +40,13 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://linkedin.com/in/kunal-chavada-seo",
+    href: "https://www.linkedin.com/in/kunalsinh-chavda-3a567b250/",
     color: "from-blue-500 to-blue-600",
-  },
-  {
-    name: "Twitter",
-    icon: Twitter,
-    href: "https://twitter.com/kunal_chavada_seo",
-    color: "from-cyan-500 to-blue-500",
-  },
-  {
-    name: "GitHub",
-    icon: Github,
-    href: "https://github.com/kunalchavada",
-    color: "from-gray-500 to-gray-600",
   },
   {
     name: "Instagram",
     icon: Instagram,
-    href: "https://instagram.com/kunal.chavada.seo",
+    href: "https://www.instagram.com/chavda_kunalsinh",
     color: "from-pink-500 to-purple-500",
   },
 ];
@@ -88,7 +74,7 @@ export default function Contact() {
     // Open email client with pre-filled subject and body
     const { name, email, subject, message } = formData;
     const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-    const mailtoLink = `mailto:harshthummar542@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:kunalsinh009@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   };
 

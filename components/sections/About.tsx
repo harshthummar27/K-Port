@@ -20,9 +20,9 @@ const skills = [
 ];
 
 const achievements = [
-  { icon: Award, number: "20+", label: "Websites Optimized" },
-  { icon: Users, number: "15+", label: "Happy Clients" },
-  { icon: Zap, number: "1.5", label: "Years Experience" },
+  { icon: Award, number: "7+", label: "Websites Optimized" },
+  { icon: Users, number: "10+", label: "Happy Clients" },
+  { icon: Zap, number: "1.5+", label: "Years Experience" },
   { icon: Globe, number: "100%", label: "Client Satisfaction" },
 ];
 
@@ -36,9 +36,13 @@ const technologies = [
   "Rank Tracker",
   "Canonical Tags",
   "Schema Markup",
-  "Mobile-First Indexing",
-  "Core Web Vitals",
   "Keyword Research",
+  "Ubersuggest",
+  "ChatGPT (Atlas)",
+  "Word AI",
+  "QuillBot",
+  "Perplexity AI",
+  "Shutterstock",
 ];
 
 export default function About() {

@@ -123,7 +123,7 @@ export default function Header() {
                 href="/"
                 className="text-lg md:text-xl font-bold text-white hover:text-purple-400 transition-colors z-10"
               >
-                KC
+                KUNAL'S
               </Link>
 
               {/* Desktop Navigation */}

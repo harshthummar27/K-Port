@@ -1,10 +1,8 @@
 "use client";
 
 import {
-  Github,
   Linkedin,
   Mail,
-  Twitter,
   Instagram,
 } from "lucide-react";
 import Link from "next/link";
@@ -19,19 +17,17 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { name: "Email", icon: Mail, href: "mailto:kunal.chavada.seo@gmail.com" },
+  { name: "Email", icon: Mail, href: "mailto:kunalsinh009@gmail.com" },
   {
     name: "LinkedIn",
     icon: Linkedin,
-    href: "https://linkedin.com/in/kunal-chavada-seo",
+    href: "https://www.linkedin.com/in/kunalsinh-chavda-3a567b250/",
   },
-  { name: "X (Twitter)", icon: Twitter, href: "https://twitter.com/kunal_chavada_seo" },
   {
     name: "Instagram",
     icon: Instagram,
-    href: "https://instagram.com/kunal.chavada.seo",
+    href: "https://www.instagram.com/chavda_kunalsinh",
   },
-  { name: "GitHub", icon: Github, href: "https://github.com/kunalchavada" },
 ];
 
 export default function Footer() {
@@ -70,8 +66,8 @@ export default function Footer() {
                   <div className="relative w-32 h-32 rounded-full bg-gradient-to-br from-purple-500/30 to-blue-500/30 border-2 border-white/20 backdrop-blur-sm p-0.5 overflow-hidden">
                     <div className="w-full h-full rounded-full overflow-hidden bg-black">
                       <Image
-                        src="/images/me.jpeg"
-                        alt="Harsh Thummar"
+                        src="/1737433149000.jpg"
+                        alt="Kunal Chavada"
                         width={128}
                         height={128}
                         className="w-full h-full object-cover rounded-full grayscale"

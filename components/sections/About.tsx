@@ -20,9 +20,9 @@ const skills = [
 ];
 
 const achievements = [
-  { icon: Award, number: "7+", label: "Websites Optimized" },
-  { icon: Users, number: "10+", label: "Happy Clients" },
-  { icon: Zap, number: "1.5+", label: "Years Experience" },
+  { icon: Award, number: "25+", label: "Websites Optimized" },
+  { icon: Users, number: "20+", label: "Happy Clients" },
+  { icon: Zap, number: "1.8+", label: "Years Experience" },
   { icon: Globe, number: "100%", label: "Client Satisfaction" },
 ];
 
@@ -39,10 +39,16 @@ const technologies = [
   "Keyword Research",
   "Ubersuggest",
   "ChatGPT (Atlas)",
-  "Word AI",
-  "QuillBot",
-  "Perplexity AI",
-  "Shutterstock",
+  "Emergent",
+  "Blackbox AI",
+  "ComputerX",
+  "Google Tag Manager",
+  "Microsoft Clarity",
+  "Google My Business",
+  "llms.txt",
+  "robots.txt",
+  "sitemap.xml",
+  "Indexification & Crawling"
 ];
 
 export default function About() {
@@ -136,22 +142,13 @@ export default function About() {
                 </h3>
                 <div className="space-y-4 text-white/80 leading-relaxed">
                   <p>
-                    I'm an experienced SEO Engineer with 1.5 years of proven expertise in
-                    driving organic growth and increasing online visibility. I combine technical
-                    SEO knowledge with strategic optimization to help businesses achieve
-                    higher search rankings and increased qualified traffic.
+                    I'm an experienced SEO Engineer with 2 years of proven expertise in driving organic growth and increasing online visibility. I combine technical SEO knowledge with strategic optimization, along with <b>AI-driven SEO</b>, <b>AEO (Answer Engine Optimization)</b>, and <b>GEO (Generative Engine Optimization)</b> strategies to help businesses achieve higher search rankings and increased qualified traffic.
                   </p>
                   <p>
-                    My approach leverages data-driven insights and industry best practices,
-                    ensuring that every optimization effort directly contributes to measurable
-                    business results. I stay updated with the latest algorithm changes and
-                    SEO trends to keep strategies ahead of the curve.
+                    My approach leverages data-driven insights, AI-powered tools, and industry best practices, ensuring that every optimization effort directly contributes to measurable business results. I stay updated with the latest algorithm changes, evolving AI search trends, and emerging discovery platforms to keep strategies ahead of the curve.
                   </p>
                   <p>
-                    I specialize in comprehensive SEO audits, technical optimization,
-                    on-page SEO, content strategy, and link building using tools like
-                    SEMrush, Ahrefs, and Google Search Console, while maintaining white-hat
-                    and best practices.
+                    I specialize in comprehensive SEO audits, technical optimization, on-page SEO, content strategy, link building, and <b>AI-focused content optimization for search and generative engines</b>, using tools like SEMrush, Ahrefs, and Google Search Console, while maintaining white-hat and best practices.
                   </p>
                 </div>
               </div>

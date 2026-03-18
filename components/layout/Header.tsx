@@ -103,11 +103,10 @@ export default function Header() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-12 xl:px-16 pt-3 md:pt-4">
           {/* Professional Navigation Bar */}
           <nav
-            className={`rounded-full transition-all duration-500 ${
-              isScrolled
-                ? "bg-gradient-to-br from-gray-900/95 via-gray-950/95 to-black/95 backdrop-blur-2xl shadow-2xl border border-white/5"
-                : "bg-gradient-to-br from-gray-900/80 via-gray-950/90 to-black/95 backdrop-blur-xl border border-white/5"
-            }`}
+            className={`rounded-full transition-all duration-500 ${isScrolled
+              ? "bg-gradient-to-br from-gray-900/95 via-gray-950/95 to-black/95 backdrop-blur-2xl shadow-2xl border border-white/5"
+              : "bg-gradient-to-br from-gray-900/80 via-gray-950/90 to-black/95 backdrop-blur-xl border border-white/5"
+              }`}
             style={{
               boxShadow: isScrolled
                 ? "0 8px 32px 0 rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05) inset"
@@ -123,7 +122,7 @@ export default function Header() {
                 href="/"
                 className="text-lg md:text-xl font-bold text-white hover:text-purple-400 transition-colors z-10"
               >
-                KUNAL'S
+                KUNAL'S PORTFOLIO
               </Link>
 
               {/* Desktop Navigation */}
@@ -138,11 +137,10 @@ export default function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${
-                        isActive
-                          ? "bg-white/10 text-white"
-                          : "text-gray-300 hover:text-white hover:bg-white/5"
-                      }`}
+                      className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 ${isActive
+                        ? "bg-white/10 text-white"
+                        : "text-gray-300 hover:text-white hover:bg-white/5"
+                        }`}
                     >
                       <Icon className="w-4 h-4" />
                       <span className="text-sm font-medium">{item.name}</span>

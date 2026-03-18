@@ -66,8 +66,8 @@ export default function Footer() {
                   <div className="relative w-32 h-32 rounded-full bg-gradient-to-br from-purple-500/30 to-blue-500/30 border-2 border-white/20 backdrop-blur-sm p-0.5 overflow-hidden">
                     <div className="w-full h-full rounded-full overflow-hidden bg-black">
                       <Image
-                        src="/1737433149000.jpg"
-                        alt="Kunal Chavada"
+                        src="/kunal-avatar.webp"
+                        alt="Kunalsinh Chavada"
                         width={128}
                         height={128}
                         className="w-full h-full object-cover rounded-full grayscale"
@@ -77,7 +77,7 @@ export default function Footer() {
                   </div>
                 </div>
                 <h2 className="text-white font-bold text-xl md:text-2xl mb-2 tracking-tight">
-                  Kunal Chavada
+                  Kunalsinh Chavda
                 </h2>
                 <p className="text-white/60 text-sm md:text-base leading-relaxed">
                   SEO Engineer & Digital Marketing Specialist
@@ -140,7 +140,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             {/* Copyright */}
             <div className="text-white/50 text-sm font-medium">
-              © {currentYear} Kunal Chavada. All rights reserved.
+              © {currentYear} Kunalsinh Chavda. All rights reserved.
             </div>
           </div>
         </div>

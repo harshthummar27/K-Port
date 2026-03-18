@@ -4,8 +4,8 @@ import Contact from "@/components/sections/Contact";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Contact Me - Kunal Chavada",
-  description: "Get in touch with Kunal Chavada for your SEO projects. Let's discuss your organic growth strategy.",
+  title: "Contact Me - Kunalsinh Chavda",
+  description: "Get in touch with Kunalsinh Chavda for your SEO projects. Let's discuss your organic growth strategy.",
 };
 
 export default function ContactPage() {

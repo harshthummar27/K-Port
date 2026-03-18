@@ -4,7 +4,7 @@ import Experience from "@/components/sections/Experience";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Experience - Kunal Chavada",
+  title: "Experience - Kunalsinh Chavda",
   description: "My professional experience in SEO, technical SEO, and digital marketing with 1.5 years of proven track record",
 };
 

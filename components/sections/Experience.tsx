@@ -23,9 +23,14 @@ const experiences = [
         period: "Feb 2025 - Present",
         achievements: [
           "Successfully transitioned from intern to full-time SEO Engineer",
-          "Optimized multiple client websites for better search rankings",
-          "Implemented technical SEO improvements across various projects",
-          "Conducted comprehensive keyword research and competitor analysis",
+          "Optimized multiple client websites for improved search rankings and organic visibility",
+          "Implemented technical SEO improvements including site speed, crawlability, indexing, and structured data enhancements",
+          "Conducted comprehensive keyword research, search intent mapping, and competitor analysis",
+          "Developed and executed AI-driven SEO strategies to enhance content relevance, automation, and performance insights",
+          "Implemented AEO (Answer Engine Optimization) techniques to improve visibility in featured snippets, voice search, and AI-generated responses",
+          "Applied GEO (Generative Engine Optimization) strategies to optimize content for AI search platforms like generative search engines and chat-based discovery",
+          "Structured content for entity-based SEO and semantic search, improving performance across AI-powered search ecosystems",
+          "Leveraged AI tools for content optimization, SERP analysis, and predictive performance tracking"
         ],
       },
       {
@@ -49,10 +54,15 @@ const experiences = [
       "Technical SEO",
       "On-Page Optimization",
       "Keyword Research",
-      "HTML/CSS",
       "SEO Auditing",
+      "Google PageSpeed Insights",
+      "GTmetrix",
+      "Schema Markup Validator",
+      "Robots.txt Tester",
+      "XML Sitemap Generator / Validator",
+      "Bing Webmaster Tools"
     ],
-    image: "/Metiz-logo-1.svg",
+    image: "/download.jpg",
     color: "from-purple-500 to-blue-500",
   },
 ];
@@ -239,7 +249,7 @@ export default function Experience() {
                         {experience.timeline.map((role, roleIndex) => (
                           <div key={roleIndex} className="relative pl-6 border-l-2 border-purple-500/30">
                             <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-purple-500 border-2 border-black"></div>
-                            
+
                             <div className="mb-3">
                               <h4 className="text-white font-bold text-lg mb-1">
                                 {role.role}

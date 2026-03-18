@@ -16,7 +16,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Kunal Chavada | SEO Engineer & Digital Marketing Specialist",
+  title: "Kunalsinh Chavda | SEO Engineer & Digital Marketing Specialist",
   description:
     "SEO Engineer with 1.5 years of proven experience - Specializing in organic growth, technical SEO, and digital marketing strategies",
   keywords: [
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Kunalsinh Chavada" }],
   icons: {
-    icon: "/images/favi-icon.png",
-    shortcut: "/1737433149000.jpg",
-    apple: "/1737433149000.jpg",
+    icon: "/images/kunal-avatar.webp",
+    shortcut: "/kunal-avatar.webp",
+    apple: "/kunal-avatar.webp",
   },
   openGraph: {
     title: "Kunalsinh Chavada | SEO Engineer",

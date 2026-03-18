@@ -4,7 +4,7 @@ import Technology from "@/components/sections/Technology";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "Technology Stack - Kunal Chavada",
+  title: "Technology Stack - Kunalsinh Chavda",
   description: "Explore the SEO tools, technical tools, and strategies I use to drive organic growth",
 };
 

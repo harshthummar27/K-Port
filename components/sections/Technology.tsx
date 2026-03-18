@@ -2,19 +2,18 @@
 
 import { motion } from "framer-motion";
 import {
-  Code,
   Database,
   Smartphone,
-  Globe,
   Server,
   Palette,
   Zap,
-  Shield,
-  Layers,
-  Box,
-  Cpu,
   GitBranch,
+  Box,
+  Monitor,
+  Sparkles,
 } from "lucide-react";
+import { SiSemrush, SiGoogle, SiGoogleanalytics, SiLighthouse, SiOpenai, SiGooglegemini, SiAnthropic } from "react-icons/si";
+import { FaLink, FaCode } from "react-icons/fa6";
 
 const techCategories = [
   {
@@ -81,39 +80,78 @@ const techCategories = [
 const featuredTech = [
   {
     name: "SEMrush",
-    icon: Code,
+    icon: SiSemrush,
     description: "Keyword & Rank Tracking",
-    color: "from-purple-500 to-blue-500",
+    color: "from-orange-500 to-amber-500",
   },
   {
     name: "Google Search Console",
-    icon: Box,
+    icon: SiGoogle,
     description: "Search Performance",
     color: "from-blue-500 to-cyan-500",
   },
   {
     name: "Google Analytics 4",
-    icon: Cpu,
+    icon: SiGoogleanalytics,
     description: "User Behavior",
-    color: "from-blue-500 to-indigo-500",
+    color: "from-yellow-400 to-orange-500",
   },
   {
     name: "Ahrefs",
-    icon: Server,
+    icon: FaLink,
     description: "Backlink Analysis",
-    color: "from-green-500 to-emerald-500",
+    color: "from-orange-500 to-rose-500",
   },
   {
     name: "Schema Markup",
-    icon: Database,
+    icon: FaCode,
     description: "Structured Data",
-    color: "from-blue-500 to-indigo-500",
+    color: "from-emerald-500 to-teal-500",
   },
   {
     name: "Core Web Vitals",
-    icon: Box,
+    icon: SiLighthouse,
     description: "Performance Metrics",
-    color: "from-blue-500 to-cyan-500",
+    color: "from-red-500 to-orange-500",
+  },
+];
+
+const aiTools = [
+  {
+    name: "ChatGPT",
+    icon: SiOpenai,
+    description: "Content generation, keyword clustering, and SEO strategy automation",
+    color: "from-green-500 to-emerald-600",
+  },
+  {
+    name: "Gemini",
+    icon: SiGooglegemini,
+    description: "AI-assisted research, content planning, and SERP intent analysis",
+    color: "from-blue-400 to-purple-500",
+  },
+  {
+    name: "Claude",
+    icon: SiAnthropic,
+    description: "Long-form content creation and semantic optimizationI",
+    color: "from-amber-400 to-orange-500",
+  },
+  {
+    name: "Emergent",
+    icon: Sparkles,
+    description: "Landing Pages & AI-powered workflow automation & code generation",
+    color: "from-cyan-400 to-blue-500",
+  },
+  {
+    name: "Blackbox AI",
+    icon: Box,
+    description: "Technical SEO implementation support",
+    color: "from-gray-700 to-gray-900",
+  },
+  {
+    name: "ComputerX",
+    icon: Monitor,
+    description: "AI-assisted analysis and productivity enhancement",
+    color: "from-purple-500 to-pink-500",
   },
 ];
 
@@ -201,6 +239,44 @@ export default function Technology() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
             {featuredTech.map((tech, index) => {
+              const Icon = tech.icon;
+              return (
+                <motion.div
+                  key={tech.name}
+                  initial={{ opacity: 0, scale: 0.8 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.15, delay: 0.1 + index * 0.025 }}
+                  className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 text-center hover:bg-white/10 transition-all duration-200 group cursor-default"
+                >
+                  <div
+                    className={`w-16 h-16 mx-auto mb-4 rounded-xl bg-gradient-to-br ${tech.color} border border-white/20 flex items-center justify-center group-hover:scale-110 transition-transform shadow-lg`}
+                  >
+                    <Icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h4 className="text-white font-bold text-sm md:text-base mb-1">
+                    {tech.name}
+                  </h4>
+                  <p className="text-white/60 text-xs">{tech.description}</p>
+                </motion.div>
+              );
+            })}
+          </div>
+        </motion.div>
+
+        {/* AI Tools */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.2, delay: 0.1 }}
+          className="mb-12 md:mb-16"
+        >
+          <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 md:mb-8 text-center">
+            AI & LLM Tools (SEO, AEO & GEO Optimization)
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
+            {aiTools.map((tech, index) => {
               const Icon = tech.icon;
               return (
                 <motion.div

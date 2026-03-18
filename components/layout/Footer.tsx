@@ -14,6 +14,7 @@ const quickLinks = [
   { name: "Technology", href: "/technology" },
   { name: "Experience", href: "/experience" },
   { name: "Contact", href: "/contact" },
+  { name: "Resume", href: "/Resume.pdf" },
 ];
 
 const socialLinks = [
@@ -94,6 +95,8 @@ export default function Footer() {
                     <li key={link.name}>
                       <Link
                         href={link.href}
+                        target={link.href.endsWith(".pdf") ? "_blank" : undefined}
+                        rel={link.href.endsWith(".pdf") ? "noopener noreferrer" : undefined}
                         className="text-white/60 hover:text-white transition-colors duration-200 text-sm group flex items-center gap-2 cursor-pointer font-medium"
                       >
                         <span className="group-hover:translate-x-1 transition-transform duration-200 text-purple-400/60 group-hover:text-purple-400">

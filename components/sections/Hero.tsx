@@ -339,6 +339,25 @@ export default function Hero() {
               <p className="text-white/70 text-base sm:text-lg md:text-xl leading-relaxed mb-6 sm:mb-8 max-w-3xl">
                 Specializing in SEO strategy, technical optimization, and data-driven digital marketing solutions, with a strong focus on <b>AI, AEO (Answer Engine Optimization), and GEO (Generative Engine Optimization)</b> strategies. Helping businesses achieve higher search rankings, enhanced visibility across search and AI-driven platforms, and sustainable organic growth through proven, future-ready methodologies.
               </p>
+
+              {/* Action Buttons */}
+              <div className="flex flex-wrap gap-4 mt-6">
+                <Link
+                  href="/Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 hover:from-purple-600 to-blue-500 hover:to-blue-600 text-white rounded-lg font-medium transition-all duration-300 shadow-[0_0_20px_rgba(168,85,247,0.4)] hover:shadow-[0_0_30px_rgba(168,85,247,0.6)] transform hover:-translate-y-1"
+                >
+                  <span>Download Resume</span>
+                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Link>
+                <Link
+                  href="#contact"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-white/5 hover:bg-white/10 text-white/90 hover:text-white border border-white/10 rounded-lg font-medium transition-all duration-300 backdrop-blur-sm transform hover:-translate-y-1"
+                >
+                  Contact Me
+                </Link>
+              </div>
             </div>
           </div>
         </motion.div>

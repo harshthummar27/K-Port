@@ -26,7 +26,7 @@ const socialLinks = [
   {
     name: "Instagram",
     icon: Instagram,
-    href: "https://www.instagram.com/chavda_kunalsinh",
+    href: "https://www.instagram.com/chavda_kunalsinh009",
   },
 ];
 
